@@ -5,77 +5,102 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <link rel="stylesheet" href="media.css">
     </head>
     <body>
         <div class="main">
+            <!-- header section -->
             <div class="header-section">
                 <div class="navbar">
                     <div class="logo">
                         <img src="./assets/Logo (1).png"
-                            alt="logo"  height="40px">
+                            alt="logo" height="40px">
                     </div>
 
                     <div class="nav-right">
                         <ul class="nav-links">
                             <li>
-                                <select name="select" id="selector">
-                                    <option value="products">Products</option>
-                                    <option
-                                        value="products">Products...</option>
-                                </select>
+                                <a href="#">
+                                    <select name="select" id="selector">
+                                        <option
+                                            value="products">Products</option>
+                                        <option
+                                            value="products">Products...</option>
+                                    </select>
+                                </a>
                             </li>
 
                             <li>
-                                <select name="select" id="selector">
-                                    <option value="Solutions">Solutions</option>
-                                    <option
-                                        value="Solutions">Solutions...</option>
-                                </select>
+                                <a href="#">
+                                    <select name="select" id="selector">
+                                        <option
+                                            value="Solutions">Solutions</option>
+                                        <option
+                                            value="Solutions">Solutions...</option>
+                                    </select>
+                                </a>
                             </li>
 
                             <li>
-                                <select name="select" id="selector">
-                                    <option
-                                        value="rescources">Resources</option>
-                                    <option
-                                        value="rescources">Resources...</option>
-                                </select>
+                                <a href="#">
+                                    <select name="select" id="selector">
+                                        <option
+                                            value="rescources">Resources</option>
+                                        <option
+                                            value="rescources">Resources...</option>
+                                    </select>
+                                </a>
                             </li>
 
                             <li>
-                                <select name="select" id="selector">
-                                    <option value="pricing">Pricing</option>
-                                    <option value="pricing">Pricing...</option>
-                                </select>
+                                <a href="#">
+                                    <select name="select" id="selector">
+                                        <option value="pricing">Pricing</option>
+                                        <option
+                                            value="pricing">Pricing...</option>
+                                    </select>
+                                </a>
                             </li>
                         </ul>
                         <div class="nav-btns">
                             <button class="login-btn primary-btn">Login</button>
-                            <button class="whiteSpace-btn primary-btn">Try whitespace
+                            <button class="whiteSpace-btn primary-btn">Try
+                                whitespace
                                 free</button>
 
                         </div>
+                       
+                    </div>
+                    <div class="nav-toggle">
+                        <i class="fa-solid fa-bars"></i>
                     </div>
 
                 </div>
                 <!-- Hero Section -->
                 <div class="hero">
-                    <div class="hero-left">
-                        <h1>Get more done with white space</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Corrupti totam id debitis obcaecati iusto
-                            reiciendis sed quia sunt non inventore deserunt
-                            consequatur atque doloribus cumque esse enim,
-                            officia aliquam ex.</p>
-                        <button class="whiteSpace-btn primary-btn">Try whitespace
-                            free</button>
-                    </div>
-                    <div class="hero-image">
-                        <!-- <img
-                            src="./assets/Flux_Dev_I_want_to_generate_vectorstyle_or_dummy_images_for_th_3-removebg-preview.png"
-                            alt="hero-img" width="600px" height="500px"> -->
-                            <div class="image-container"></div>
+                    <div class="hero-container">
+                        <div class="hero-left">
+                            <h1>Get more done with white space</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
+                                elit. Corrupti totam id debitis obcaecati iusto
+                                reiciendis sed quia sunt non inventore deserunt
+                                consequatur atque doloribus cumque esse enim,
+                                officia aliquam ex.</p>
+                            <button class="whiteSpace-btn primary-btn">Try
+                                whitespace
+                                free</button>
+                        </div>
+                        <div class="hero-image">
+                            <img
+                                src="./assets/hero-removebg-preview.png"
+                                alt="hero-img" width="500px" height="400px">
+                            <!-- <div class="image-container"></div> -->
+                        </div>
                     </div>
 
                 </div>
@@ -85,33 +110,38 @@
                 <div class="project-container">
                     <div class="project-left">
                         <h1>Project Mangement</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Ad aliquam at modi praesentium nobis in quae
-                            laboriosam ducimus. Alias optio atque veritatis quia
-                            asperiores vitae eligendi porro blanditiis mollitia
+                        <p>Lorem ipsum dolor sit amet, consectetur
+                            adipisicing
+                            elit. Ad aliquam at modi praesentium nobis in
+                            quae
+                            laboriosam ducimus. Alias optio atque veritatis
+                            quia
+                            asperiores vitae eligendi porro blanditiis
+                            mollitia
                             nostrum.</p>
                         <button class="primary-btn">Get Started</button>
                     </div>
                     <div class="project-image">
-                        <!-- <img
-                            src="./assets/Flux_Dev_I_want_to_generate_vectorstyle_or_dummy_images_for_th_3-removebg-preview.png"
-                            alt> -->
-                            <div class="image-container"></div>
+                        <img
+                            src="./assets/asset2.jpg" 
+                            alt>
+
                     </div>
                 </div>
                 <!-- Work Together -->
                 <div class="workTogether">
                     <div class="work-container">
                         <div class="work-image">
-                            <!-- <img
-                                src="./assets/Flux_Dev_I_want_to_generate_vectorstyle_or_dummy_images_for_th_3-removebg-preview.png"
-                                alt> -->
-                                <div class="image-container"></div>
+                            <img
+                                src="./assets/asset3.jpg"
+                             >
+
                         </div>
                         <div class="work-left">
                             <h1>Work Together</h1>
                             <p>Lorem ipsum dolor sit amet consectetur,
-                                adipisicing elit. Alias provident amet sapiente
+                                adipisicing elit. Alias provident amet
+                                sapiente
                                 iusto officiis, voluptatibus ex numquam, quo
                                 eveniet consequatur repudiandae quibusdam
                                 distinctio iure laborum. Eum consectetur
@@ -126,18 +156,21 @@
                 <div class="extention-container">
                     <div class="extention-left">
                         <h1>Use as Extention</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing
+                        <p>Lorem ipsum dolor sit amet consectetur,
+                            adipisicing
                             elit. Perferendis hic cupiditate impedit, sed
-                            suscipit placeat, at ut recusandae, quae quisquam
-                            commodi accusamus unde mollitia vero ab facilis et
+                            suscipit placeat, at ut recusandae, quae
+                            quisquam
+                            commodi accusamus unde mollitia vero ab facilis
+                            et
                             pariatur ad.</p>
                         <button class="primary-btn">Let's Go</button>
                     </div>
                     <div class="extention-image">
-                        <!-- <img
-                            src="./assets/Flux_Dev_I_want_to_generate_vectorstyle_or_dummy_images_for_th_3-removebg-preview.png"
-                            alt> -->
-                            <div class="image-container"></div>
+                        <img
+                            src="./assets/hero-removebg-preview.png"
+                            alt >
+
                     </div>
                 </div>
             </div>
@@ -145,16 +178,19 @@
             <div class="customizeNeeds">
                 <div class="customize-container">
                     <div class="customize-image">
-                        <!-- <img
-                            src="./assets/Flux_Dev_I_want_to_generate_vectorstyle_or_dummy_images_for_th_3-removebg-preview.png"
-                            alt> -->
-                            <div class="image-container"></div>
+                        <img
+                            src="./assets/asset2.jpg"
+                            alt >
+                        <!-- <div class="image-container"></div> -->
                     </div>
                     <div class="customize-left">
                         <h1>Customize it to your needs</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Officia quidem porro est quasi officiis, vitae
-                            et! Corporis excepturi iste, libero laborum voluptas
+                        <p>Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit. Officia quidem porro est quasi officiis,
+                            vitae
+                            et! Corporis excepturi iste, libero laborum
+                            voluptas
                             vitae at, temporibus quas nihil eum ad
                             assumenda.</p>
                         <button class="primary-btn">Let's Go</button>
@@ -168,32 +204,285 @@
                 <div class="plane-container">
                     <div class="plane-heading">
                         <h1>Choose Your Plane</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Autem commodi eveniet maxime omnis et, alias,
+                        <p>Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit. Autem commodi eveniet maxime omnis et,
+                            alias,
                             veniam reiciendis praesentium distinctio nisi
                             ad,</p>
                     </div>
                     <div class="planeCards">
                         <div class="card1">
                             <div class="card-headings">
-                            <h3>Free</h3>
-                            <h2>$0</h2>
-                            <h5>Capture Ideas and find them quickly</h5>
+                                <h3>Free</h3>
+                                <h2>$0</h2>
+                                <h5>Capture Ideas and find them quickly</h5>
+                            </div>
+                            <p><i
+                                    class="fa-regular fa-circle-check fa-beat-fade"></i>
+                                Sync unlimited devices</p>
+                            <p><i
+                                    class="fa-regular fa-circle-check fa-beat-fade"></i>
+                                10 GB monthly uploads</p>
+                            <p><i
+                                    class="fa-regular fa-circle-check fa-beat-fade"></i>
+                                200 MB max note size</p>
+                            <p><i
+                                    class="fa-regular fa-circle-check fa-beat-fade"></i>
+                                customize Home dashboard and access extra
+                                widget</p>
+                            <p><i
+                                    class="fa-regular fa-circle-check fa-beat-fade"></i>
+                                connect primary google calender account</p>
+                            <p><i
+                                    class="fa-regular fa-circle-check fa-beat-fade"></i>
+                                Add dua dates, reminders, and notification
+                                to your tasks</p>
+                            <button class="card-primary-btn hover">Get
+                                Started</button>
                         </div>
-                            <p>Sync unlimited devices</p>
-                            <p>10 GB monthly uploads</p>
-                            <p>200 MB max note size</p>
-                            <p>customize Home dashboard and access extra widget</p>
-                            <p>connect primary google calender account</p>
-                            <p>Add dua dates, reminders, and notification to your tasks</p>
-                            <button class="card-primary-btn hover">Get Started</button>
+                        <div class="card2">
+                            <div class="card-headings">
+                                <h3>Personal</h3>
+                                <h2>$11.99</h2>
+                                <h5>Keep home and family on track</h5>
+                            </div>
+                            <p><i
+                                    class="fa-regular fa-circle-check fa-beat-fade"></i>
+                                Sync unlimited devices</p>
+                            <p><i
+                                    class="fa-regular fa-circle-check fa-beat-fade"></i>
+                                10 GB monthly uploads</p>
+                            <p><i
+                                    class="fa-regular fa-circle-check fa-beat-fade"></i>
+                                200 MB max note size</p>
+                            <p><i
+                                    class="fa-regular fa-circle-check fa-beat-fade"></i>
+                                customize Home dashboard and access extra
+                                widget</p>
+                            <p><i
+                                    class="fa-regular fa-circle-check fa-beat-fade"></i>
+                                connect primary google calender account</p>
+                            <p><i
+                                    class="fa-regular fa-circle-check fa-beat-fade"></i>
+                                Add dua dates, reminders, and notification
+                                to your tasks</p>
+                            <button class="card-secondary-btn hover">Get
+                                Started</button>
+
                         </div>
-                        <div class="card2"></div>
-                        <div class="card3"></div>
+                        <div class="card3">
+                            <div class="card-headings">
+                                <h3>Organization</h3>
+                                <h2>$49.99</h2>
+                                <h5>Capture Ideas and find them quickly</h5>
+                            </div>
+                            <p><i
+                                    class="fa-regular fa-circle-check fa-beat-fade"></i>
+                                Sync unlimited devices</p>
+                            <p><i
+                                    class="fa-regular fa-circle-check fa-beat-fade"></i>
+                                10 GB monthly uploads</p>
+                            <p><i
+                                    class="fa-regular fa-circle-check fa-beat-fade"></i>
+                                200 MB max note size</p>
+                            <p><i
+                                    class="fa-regular fa-circle-check fa-beat-fade"></i>
+                                customize Home dashboard and access extra
+                                widget</p>
+                            <p><i
+                                    class="fa-regular fa-circle-check fa-beat-fade"></i>
+                                connect primary google calender account</p>
+                            <p><i
+                                    class="fa-regular fa-circle-check fa-beat-fade"></i>
+                                Add dua dates, reminders, and notification
+                                to your tasks</p>
+                            <button class="card-primary-btn hover">Get
+                                Started</button>
+                        </div>
                     </div>
 
                 </div>
             </div>
+
+            <!-- Your work container -->
+            <div class="yourWork">
+                <div class="yourWork-container">
+                    <h1>Your work, everywhere you are</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Itaque nobis perspiciatis quam exercitationem
+                        recusandae sed distinctio rerum corrupti vel,
+                        aliquam, natus soluta et vero quisquam tempora enim,
+                        porro fugiat unde?</p>
+                    <button class="primary-btn">Try Taskey</button>
+                </div>
+            </div>
+
+            <!-- Data container -->
+            <div class="yourData">
+                <div class="yourData-container">
+                    <div class="data-left">
+                        <h1>100% your data</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Porro culpa praesentium
+                            laudantium! Possimus provident reprehenderit,
+                            dolorum commodi corrupti architecto illo magnam
+                            omnis praesentium, debitis obcaecati ullam,
+                            dolores animi sequi nihil!</p>
+                        <button class="primary-btn">Read more</button>
+                    </div>
+                    <div class="data-image">
+                        <img
+                            src="./assets/asset3.jpg"
+                            alt >
+                    </div>
+                </div>
+            </div>
+
+            <!-- Our Exponsure -->
+            <div class="ourSponsore">
+                <div class="ourSponsore-container">
+                    <h1>Our sponsors</h1>
+                    <div class="company-logos">
+                        <img
+                            src="https://cdn-icons-png.flaticon.com/512/15/15476.png"
+                            alt width="70px" class="logo-one">
+                        <img src="./assets/microsoft-logo-removebg-preview.png"
+                            alt class="logo-two">
+                        <img src="./assets/slack-logo-removebg-preview.png" alt class="logo-three">
+                        <img src="./assets/google-logo2-removebg-preview.png"
+                            alt height="70px" class="logo-four">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Favorite Apps -->
+            <div class="favoriteApps">
+                <div class="app-container">
+                    <div class="app-image">
+                        <img src="./assets/asset6.jpg" alt width="500px">
+                    </div>
+                    <div class="app-right">
+                        <h1>Work with Your Favorite Apps Using whitepace</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Officia corrupti nesciunt voluptatem non saepe
+                            quis. </p>
+                        <button class="primary-btn">Read more</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Trusted Users -->
+            <div class="trustedUsers">
+                <div class="users-container">
+                    <h1>See what our trusted users Says</h1>
+                    <div class="users-cards">
+                        <div class="userCard1">
+                            <img src="./assets/baby-lion.jpeg" alt height="80px"
+                                width="80px" class="userCard-first-image">
+                            <p>“If you haven’t tried whitepace yet, you need to
+                                give it a shot for your next event. It’s so easy
+                                and intuitive to get a new event setup and if
+                                you need any help their customer service is
+                                seriously amazing.”</p>
+                            <div class="userName">
+                                <h4>baby lion</h4>
+                                <p>Founder, XYZ Company</p>
+                            </div>
+                        </div>
+                        <div class="userCard2">
+                            <img src="./assets/baby-lion.jpeg" alt height="80px"
+                                width="80px" class="userCard-first-image">
+                            <p>“If you haven’t tried whitepace yet, you need to
+                                give it a shot for your next event. It’s so easy
+                                and intuitive to get a new event setup and if
+                                you need any help their customer service is
+                                seriously amazing.”</p>
+                            <div class="userName">
+                                <h4>baby lion</h4>
+                                <p>Founder, XYZ Company</p>
+                            </div>
+                        </div>
+                        <div class="userCard3">
+                            <img src="./assets/baby-lion.jpeg" alt height="80px"
+                                width="80px" class="userCard-first-image">
+                            <p>“If you haven’t tried whitepace yet, you need to
+                                give it a shot for your next event. It’s so easy
+                                and intuitive to get a new event setup and if
+                                you need any help their customer service is
+                                seriously amazing.”</p>
+                            <div class="userName">
+                                <h4>baby lion</h4>
+                                <p>Founder, XYZ Company</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="users-btn">
+                        <div class="btns">
+                            <a href="#"><i
+                                    class="fa-solid fa-arrow-left fa-fade"></i></a>
+                        </div>
+                        <div class="btns">
+                            <a href="#">
+                                <i class="fa-solid fa-arrow-right fa-fade"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="footer-container">
+                    <div class="footer-text-container">
+                        <div class="box-one">
+                            <img src="./assets/Logo (1).png" alt>
+                            <p>whitepace was created for the new ways we live
+                                and work. We make a better workspace around the
+                                world</p>
+                        </div>
+                        <div class="box-two">
+                            <a href="#"><h3>Products</h3></a>
+                            <a href="#">Overview</a>
+                            <a href="#">Pricing</a>
+                            <a href="#">Customer</a>
+                        </div>
+                        <div class="box-three">
+                            <a href="#"><h3>Resources</h3></a>
+                            <a href="#">Blog</a>
+                            <a href="#">Guides & tutorials</a>
+                            <a href="#">Help center</a>
+                        </div>
+                        <div class="box-four">
+                            <a href="#"><h3>Company</h3></a>
+                            <a href="#">About us</a>
+                            <a href="#">Careers</a>
+                            <a href="#">Media kits</a>
+                        </div>
+                        <div class="box-five">
+                            <h2>Try it today</h2>
+                            <p>Get started for free.
+                                Add your whole team as your needs grow.</p>
+                            <button class="primary-btn footer-btn">Start
+                                today</button>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="footer-end">
+                        <p><i class="fa-solid fa-globe"></i> <select
+                                name="select" id>
+                                <option value="english">English</option>
+                                <option value="english">Spanish..</option>
+                            </select></p>
+                            <p><a href="#">Terms & privacy</a></p>
+                            <p><a href="#">Security</a></p>
+                            <p><a href="#">Status</a></p>
+                            <p><a href="#">Status</a></p>
+                            <p>©2021 Whitepace LLC.</p>
+
+                    </div>
+                </div>
+            </footer>
 
         </div>
     </body>
