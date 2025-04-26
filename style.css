@@ -390,8 +390,9 @@
 
 }
 
-.customize-image {
-    width: 50%;
+.customize-image img{
+    width: 500px;
+    height: 350px;
 }
 
 .customize-left {
