@@ -90,8 +90,11 @@
     padding-top: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-around ;
 
+}
+.navbar .logo{
+    width: 60%;
 }
 
 .nav-right {
@@ -103,6 +106,7 @@
 }
 
 .nav-links {
+    width: 40%;
     display: flex;
     align-items: center;
 }
@@ -117,7 +121,7 @@
 }
 
 .nav-btns {
-    width: 500px;
+    width: 50%;
     height: 60px;
     margin-left: 20px;
     display: flex;
@@ -202,6 +206,9 @@
     font-weight: 400;
     font-size: 16px;
 }
+.hero img{
+    animation: float 3s ease-in-out infinite;
+}
 
 /* .hero-image img {
     width: 50%;
@@ -260,6 +267,7 @@
 .project-image img{
     width:550px;
     height: 350px;
+    animation: float 3s ease-in-out infinite;
 }
 
 /* work Together */
@@ -288,6 +296,7 @@
 .work-image img{
     width: 500px;
     height: 100%;
+    animation: float 3s ease-in-out infinite;
 
 }
 
@@ -361,6 +370,9 @@
     font-size: 16px;
 
 }
+.extention-image img{
+    animation: float 3s ease-in-out infinite;
+}
 
 .extention-image {
     width: 50%;
@@ -390,10 +402,24 @@
 
 }
 
+
 .customize-image img{
     width: 500px;
     height: 350px;
+    animation: float 3s ease-in-out infinite;
 }
+
+@keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-15px); /* Thoda upar */
+    }
+    100% {
+      transform: translateY(0px); /* Wapas neeche */
+    }
+  }
 
 .customize-left {
     width: 50%;
@@ -626,10 +652,14 @@
 .yourData p {
     font-size: 16px;
 }
+.data-image img{
+    animation: float 3s ease-in-out infinite;
+}
 
 .data-image {
     width: 30%;
     height: 350px;
+
 }
 
 /* Our Exponsure */
@@ -689,6 +719,7 @@
 .app-image {
     width: 50%;
     height: 400px;
+    animation: float 3s ease-in-out infinite;
 
 
 }
